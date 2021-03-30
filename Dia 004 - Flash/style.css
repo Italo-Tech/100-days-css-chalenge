@@ -1,0 +1,53 @@
+.back {
+  margin:0;
+  padding: 0;
+  
+  position: absolute; 
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #c52c27;
+}
+
+.circle {
+  position: absolute;
+  width: 380px;
+  height: 380px;
+  background: #fff;
+  border-radius: 50%;
+  border: 20px solid #fed106;
+}
+
+#one-triangle {
+  position: absolute;
+  left: 90px;
+  top: -80px;
+  width: 300px;
+  height: 240px;
+  background-color: #efd106;
+  clip-path: polygon(100% 0%, 0% 100%, 35% 100%);
+}
+
+.middle {
+  background-color: #efd106;
+  position: absolute;
+  left: 15px;
+  top: 100px;
+  width: 310px;
+  height: 240px;
+  clip-path: polygon(70% 0, 100% 0, 40% 75%, 15% 75%);
+}
+
+.two-triangle{
+  position: absolute;
+  left: -10px;
+  top: 220px;
+  width: 300px;
+  height: 240px;
+  background-color: #efd106;
+  clip-path: polygon(65% 0, 0 100%, 100% 0);
+}
